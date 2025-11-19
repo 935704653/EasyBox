@@ -1,0 +1,28 @@
+var rule = {
+  title: '飞流视频',
+  host: 'https://www.flixflop.com/',
+  url: '/explore/fyclass?page=fypage',
+  searchUrl: '/results?q=**',
+  class_parse: '.MuiTabs-flexContainer a;a&&Text;a&&href;/(\\d+)',
+  searchable: 2,
+  quickSearch: 0,
+  filterable: 0,
+  headers: {
+    'User-Agent': 'MOBILE_UA',
+  },
+  play_parse: true,
+  lazy: "js:\n  let html = request(input);\n  let hconf = html.match(/r player_.*?=(.*?)</)[1];\n  let json = JSON5.parse(hconf);\n  let url = json.url;\n  if (json.encrypt == '1') {\n    url = unescape(url);\n  } else if (json.encrypt == '2') {\n    url = unescape(base64Decode(url));\n  }\n  if (/\\.(m3u8|mp4|m4a|mp3)/.test(url)) {\n    input = {\n      parse: 0,\n      jx: 0,\n      url: url,\n    };\n  } else {\n    input;\n  }",
+  limit: 6,
+  double: true,
+  推荐: '.xdxy5lq;*;*;*;*;*',
+  一级: 'body a.xeerELw;img&&alt;img&&src;.xLSs05H&&Text;a&&href',
+  二级: {
+    title: 'h1&&Text',
+    img: '.xeerELw img&&src',
+    desc: '.gap-4:eq(1)&&Text;.xYfoBv8:eq(2)&&Text;.xYfoBv8:eq(1)&&Text;.truncate:eq(3)&&Text;.truncate:eq(2)&&Text',
+    content: '.mr-2&&Text',
+    tabs: '.xTwxBpM .MuiTab-root',
+    lists: '.xBwXv89 .xMXCNB0',
+  },
+  搜索: '.flex.flex-col .gap-4;.xrIoPJE&&Text;img&&src;.xLSs05H&&Text;a&&href',
+}

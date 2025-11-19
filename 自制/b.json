@@ -1,0 +1,124 @@
+{
+    "urls": [
+        {
+            "url": "file://EasyBox/自制/py.json",
+            "name": "py本地"
+        },
+        {
+            "url": "file://EasyBox/自制/api.json",
+            "name": "自制本地"
+        },
+        {
+            "url": "file://EasyBox/T4/T4.json",
+            "name": "T4本地"
+        },
+        {
+            "url": "file://下载/本地包/TVBoxOSC/tvbox/api.json",
+            "name": "潇洒本地"
+        },
+        {
+            "url": "file://小虎斑/tvbox/tvbox.json",
+            "name": "小虎斑本地"
+        },
+        {
+            "url": "file://EasyBox/pg/jsm.json",
+            "name": "pg本地"
+        },
+        {
+            "url": "http://192.168.1.16:5757/config/1?sub=all&pwd=dzyyds",
+            "name": "飞牛drpys"
+        },
+        {
+            "url": "https://yangguoting@hotmail.com:az66th49pwrnzcdn@dav.jianguoyun.com/dav/ESbackup/ES Auto backup from 2211133C/Folder backup/EasyBox/自制/api.json",
+            "name": "自制自更新"
+        },
+        {
+            "url": "https://yangguoting@hotmail.com:az66th49pwrnzcdn@dav.jianguoyun.com/dav/ESbackup/ES Auto backup from 2211133C/Folder backup/EasyBox/py/py.json",
+            "name": "py自更新"
+        },
+        {
+            "url": "https://hb.xyyh.online/tvbox/",
+            "name": "小虎斑在线"
+        },
+        {
+            "url": "http://我不是.摸鱼儿.com",
+            "name": "摸鱼儿在线"
+        },
+        {
+            "url": "http://zhuimi.摸鱼儿.com/moyuer?token=x8RHEu5o",
+            "name": "我的摸鱼"
+        },
+        {
+            "url": "https://hb.xyyh.online/tvbox/",
+            "name": "牛马在线"
+        },
+        {
+            "url": "http://tvbox.王二小放牛娃.top",
+            "name": "王二小在线"
+        },
+        {
+            "url": "http://cdn.qiaoji8.com/tvbox.json",
+            "name": "巧技在线"
+        },
+        {
+            "url": "https://d.kstore.dev/download/12020/t4.json",
+            "name": "木鱼T4"
+        },
+        {
+            "url": "file://tvboxqq/饭太硬/api.json",
+            "name": "饭太硬"
+        },
+        {
+            "url": "file://tvboxqq/小米/api.json",
+            "name": "小米"
+        },
+        {
+            "url": "file://tvboxqq/肥猫/api.json",
+            "name": "肥猫"
+        },
+        {
+            "url": "file://tvboxqq/王二小/api.json",
+            "name": "王二小"
+        },
+        {
+            "url": "file://tvboxqq/潇洒/api.json",
+            "name": "潇洒"
+        },
+        {
+            "url": "file://tvboxqq/摸鱼儿/api.json",
+            "name": "摸鱼儿"
+        },
+        {
+            "url": "file://tvboxqq/小虎斑/api.json",
+            "name": "小虎斑"
+        },
+        {
+            "url": "file://tvboxqq/欧歌/api.json",
+            "name": "欧歌"
+        },
+        {
+            "url": "file://tvboxqq/南风/api.json",
+            "name": "南风"
+        },
+        {
+            "url": "file://tvboxqq/香雅情/api.json",
+            "name": "香雅情"
+        },
+        {
+            "url": "file://tvboxqq/少儿频道/api.json",
+            "name": "少儿频道"
+        },
+        {
+            "url": "file://tvboxqq/戏曲音乐/api.json",
+            "name": "戏曲音乐"
+        },
+        {
+            "url": "file://EasyBox/自制/18.json",
+            "name": "18本地"
+        },
+        {
+            "url": "https://py.doube.eu.org/static/t4.json",
+            "name": "doubeT4"
+        }
+    ]
+}

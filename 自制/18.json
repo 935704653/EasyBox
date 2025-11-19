@@ -1,0 +1,1012 @@
+{
+    "spider": "./spider.jar",
+    "sites": [
+        {
+            "key": "豆瓣",
+            "name": "豆瓣",
+            "type": 3,
+            "api": "csp_Douban",
+            "searchable": 0
+        },
+        {
+            "key": "乐播",
+            "name": "乐播采集",
+            "type": 1,
+            "api": "https://lbapi9.com/api.php/provide/vod/",
+            "playerType": 1,
+            "searchable": 1,
+            "changeable": 1
+        },
+        {
+            "key": "javxxpy",
+            "name": "JAVxxpy",
+            "type": 3,
+            "searchable": 1,
+            "player Type": 2,
+            "quickSearch": 1,
+            "filterable": 1,
+            "api": "./py/javxx.py",
+            "ext": {
+                "proxy": {},
+                "plp": ""
+            }
+        },
+        {
+            "key": "36直播",
+            "name": "36直播js",
+            "type": 3,
+            "api": "./drpy_libs/drpy2.min.js",
+            "ext": "./drpy_js/36直播.js"
+        },
+        {
+            "key": "黑料不打烊",
+            "name": "黑料不打烊🇺🇸js",
+            "type": 3,
+            "api": "./drpy_libs/drpy2.min.js",
+            "ext": "./drpy_js/黑料不打烊.js"
+        },
+        {
+            "key": "黑料不打烊-z",
+            "name": "黑料不打烊-z🇺🇸js",
+            "type": 3,
+            "api": "./drpy_libs/drpy2.min.js",
+            "ext": "./drpy_js/黑料不打烊-z.js"
+        },
+        {
+            "key": "R18撸",
+            "name": "R18撸🇺🇸js",
+            "type": 3,
+            "api": "./drpy_libs/drpy2.min.js",
+            "ext": "./drpy_js/R18撸.js"
+        },
+        {
+            "key": "UAA",
+            "name": "UAA🇺🇸js",
+            "type": 3,
+            "api": "./drpy_libs/drpy2.min.js",
+            "ext": "./drpy_js/UAA.js"
+        },
+        {
+            "key": "番号资源",
+            "name": "番号资源🇺🇸js",
+            "type": 3,
+            "api": "./drpy_libs/drpy2.min.js",
+            "ext": "./drpy_js/番号资源.js"
+        },
+        {
+            "key": "一点视频",
+            "name": "一点视频🇺🇸js",
+            "type": 3,
+            "api": "./drpy_libs/drpy2.min.js",
+            "ext": "./drpy_js/一点视频.js"
+        },
+        {
+            "key": "爱爱影院",
+            "name": "爱爱影院🇺🇸js",
+            "type": 3,
+            "api": "./drpy_libs/drpy2.min.js",
+            "ext": "./drpy_js/爱爱影院.js"
+        },
+        {
+            "key": "地瓜视频",
+            "name": "地瓜视频🇺🇸js",
+            "type": 3,
+            "api": "./drpy_libs/drpy2.min.js",
+            "ext": "./drpy_js/地瓜视频.js"
+        },
+        {
+            "key": "飞狗影院",
+            "name": "飞狗影院🇺🇸js",
+            "type": 3,
+            "api": "./drpy_libs/drpy2.min.js",
+            "ext": "./drpy_js/飞狗影院.js"
+        },
+        {
+            "key": "黄色仓库",
+            "name": "黄色仓库🇺🇸js",
+            "type": 3,
+            "api": "./drpy_libs/drpy2.min.js",
+            "ext": "./drpy_js/黄色仓库.js"
+        },
+        {
+            "key": "乐草TV",
+            "name": "乐草TV🇺🇸js",
+            "type": 3,
+            "api": "./drpy_libs/drpy2.min.js",
+            "ext": "./drpy_js/乐草TV.js"
+        },
+        {
+            "key": "路视频",
+            "name": "路视频🇺🇸js",
+            "type": 3,
+            "api": "./drpy_libs/drpy2.min.js",
+            "ext": "./drpy_js/路视频.js"
+        },
+        {
+            "key": "绿色仓库",
+            "name": "绿色仓库🇺🇸js",
+            "type": 3,
+            "api": "./drpy_libs/drpy2.min.js",
+            "ext": "./drpy_js/绿色仓库.js"
+        },
+        {
+            "key": "秋名山直播",
+            "name": "秋名山直播py",
+            "type": 3,
+            "api": "./PY/秋名山直播.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2
+        },
+        {
+            "key": "香蕉APP",
+            "name": "香蕉APPpy",
+            "type": 3,
+            "api": "./py/香蕉APP.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "推特APP",
+            "name": "推特APPpy",
+            "type": 3,
+            "api": "./py/推特APP.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "epoAPP",
+            "name": "epoAPPpy",
+            "type": 3,
+            "api": "./py/epo.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "小红薯APP",
+            "name": "小红薯APPpy",
+            "type": 3,
+            "api": "./py/小红薯APP.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "今日看料",
+            "name": "今日看料py",
+            "type": 3,
+            "api": "./py/今日看料.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "黑料弹幕版",
+            "name": "黑料弹幕版py",
+            "type": 3,
+            "api": "./py/黑料弹幕版.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "香蕉APPjs",
+            "name": "香蕉APPjs",
+            "type": 3,
+            "api": "./PY/香蕉APP.js",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0
+        },
+        {
+            "key": "madoujs",
+            "name": "madoujs",
+            "type": 3,
+            "api": "./PY/madou.js",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0
+        },
+        {
+            "key": "小红薯",
+            "name": "小红薯py",
+            "type": 3,
+            "api": "./py/py_小红薯.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "妲己py",
+            "name": "妲己py",
+            "type": 3,
+            "api": "./py/妲己.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "吸瓜",
+            "name": "吸瓜🇺🇸py",
+            "type": 3,
+            "api": "./py/吸瓜.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "浴火社APP",
+            "name": "浴火社APP🇺🇸py",
+            "type": 3,
+            "api": "./py/浴火社APP.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "花都",
+            "name": "花都🇺🇸py",
+            "type": 3,
+            "api": "./py/花都.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "py_黑料",
+            "name": "py_黑料🇺🇸py",
+            "type": 3,
+            "api": "./py/py_黑料.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "lavAPP",
+            "name": "lavAPP🇺🇸py",
+            "type": 3,
+            "api": "./py/lavAPP.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "Phb",
+            "name": "Phb🇺🇸py",
+            "type": 3,
+            "api": "./py/Phb.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "DSYS",
+            "name": "DSYS🇺🇸py",
+            "type": 3,
+            "api": "./py/DSYS.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "Misspy",
+            "name": "Miss🇺🇸py",
+            "type": 3,
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 0,
+            "api": "./py/Miss.py",
+            "ext": {
+                "site": "https://missav.ai",
+                "cfgo": "./lib/cf-proxy-linux-arm64",
+                "plp": "",
+                "proxy": {}
+            }
+        },
+        {
+            "key": "熊猫py",
+            "name": "熊猫py",
+            "type": 3,
+            "api": "./py/熊猫.py"
+        },
+        {
+            "key": "黑料py",
+            "name": "黑料py",
+            "type": 3,
+            "api": "./py/黑料.py"
+        },
+        {
+            "key": "stripchatpy",
+            "name": "stripchatpy",
+            "type": 3,
+            "api": "./py/stripchat.py"
+        },
+        {
+            "key": "好色tvpy",
+            "name": "好色tvpy",
+            "type": 3,
+            "api": "./py/好色tv.py"
+        },
+        {
+            "key": "6vpy",
+            "name": "6vpy",
+            "type": 3,
+            "api": "./py/6v.py"
+        },
+        {
+            "key": "javxbbpy",
+            "name": "javxbbpy",
+            "type": 3,
+            "api": "./py/javxbb.py"
+        },
+        {
+            "key": "中文X直播",
+            "name": "中文X直播🇺🇸",
+            "type": 3,
+            "api": "./py/中文X直播.py"
+        },
+        {
+            "key": "香蕉",
+            "name": "香蕉",
+            "type": 3,
+            "api": "./py/香蕉.py"
+        },
+        {
+            "key": "51吸瓜动态版",
+            "name": "51吸瓜动态版🇺🇸",
+            "type": 3,
+            "api": "./py/51吸瓜动态版.py"
+        },
+        {
+            "key": "lav",
+            "name": "lav🇺🇸",
+            "type": 3,
+            "api": "./py/lav.py"
+        },
+        {
+            "key": "rou",
+            "name": "rou🇺🇸",
+            "type": 3,
+            "api": "./py/rou.py"
+        },
+        {
+            "key": "Xhm",
+            "name": "Xhm🇺🇸py",
+            "type": 3,
+            "api": "./py/Xhm.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "Xvd",
+            "name": "Xvd🇺🇸py",
+            "type": 3,
+            "api": "./py/Xvd.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "超级精品",
+            "name": "超级精品",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./XBPQ/超级精品.json"
+        },
+        {
+            "key": "淫岛专场",
+            "name": "淫岛专场",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./XBPQ/淫岛专场.json"
+        },
+        {
+            "key": "24营业",
+            "name": "24营业🇺🇸xbpq",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "作者": "",
+                "站名": "",
+                "请求头": "User-Agent$MOBILE_UA",
+                "编码": "UTF-8",
+                "图片代理": "0",
+                "主页url": "https://www.24hyy.xyz/",
+                "首页": "120",
+                "起始页": "1",
+                "分类url": "https://www.24hyy.xyz/index.php/vod/show/id/{cateId}/page/{catePg}.html;;mrcdz1",
+                "分类二次截取": "",
+                "分类数组": "",
+                "分类标题": "",
+                "分类ID": "",
+                "分类": "国产一$1#国产二$22#日韩$2#动漫$4#欧美$3",
+                "二次截取": "module-items\">&&id=\"page[替换:module-footer>>module-item]",
+                "数组": "module-item-pic\">&&module-item\"",
+                "标题": "title=\"&&\"",
+                "图片": "data-src=\"&&\"",
+                "副标题": "module-item-caption\">&&</div>",
+                "链接": "href=\"&&\"",
+                "简介": "swiper-wrapper\">&&</div>",
+                "线路二次截取": "",
+                "直接播放": "0",
+                "播放请求头": "",
+                "嗅探词": ".mp4#.m3u8",
+                "过滤词": "",
+                "跳转播放链接": "var player_*url\":\"&&\"",
+                "跳转解析": "",
+                "搜索请求头": "手机",
+                "搜索url": "https://www.24hyy.xyz/index.php/vod/search/page/{pg}/wd/{wd}.html",
+                "搜索模式": "1",
+                "搜索后缀": "",
+                "搜索二次截取": "",
+                "搜索数组": "",
+                "搜索标题": "",
+                "搜索图片": "",
+                "搜索副标题": "",
+                "搜索链接": "",
+                "筛选": "1",
+                "类型": "",
+                "剧情": "",
+                "剧情值": "*",
+                "地区": "",
+                "地区值": "*",
+                "年份": "",
+                "年份值": "*",
+                "语言": "",
+                "语言值": "*",
+                "字母": "A&B&C&D&E&F&G&H&I&J&K&L&M&N&O&P&Q&R&S&T&U&V&W&X&Y&Z&0-9",
+                "字母值": "*",
+                "排序": "时间&人气&评分",
+                "排序值": "time&hits&score"
+            }
+        },
+        {
+            "key": "mm",
+            "name": "mm🇺🇸xbpq",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "作者": "",
+                "站名": "",
+                "请求头": "User-Agent$MOBILE_UA",
+                "编码": "UTF-8",
+                "图片代理": "0",
+                "主页url": "https://xn--x2wp3ak42d.javmm34.mom/",
+                "首页": "120",
+                "起始页": "1",
+                "分类url": "https://xn--x2wp3ak42d.javmm34.mom/index.php/vod/type/id/{cateId}/page/{catePg}.html;;mrcd0",
+                "分类二次截取": "menu-main-menu\"&&</ul> ",
+                "分类数组": "<a&&/a>",
+                "分类标题": "href=\"*>&&<",
+                "分类ID": "/index.php/vod/type/id/&&/\"",
+                "分类": "",
+                "二次截取": "",
+                "数组": "video-block&&</div></div></div>",
+                "标题": "title\">&&<",
+                "图片": "data-src=\"&&\"",
+                "副标题": "duration\">&&</span>",
+                "链接": "href=\"&&\"",
+                "线路二次截取": "",
+                "直接播放": "0",
+                "播放请求头": "",
+                "嗅探词": ".mp4#.m3u8",
+                "过滤词": "",
+                "跳转播放链接": "",
+                "跳转解析": "",
+                "搜索请求头": "手机",
+                "搜索url": "",
+                "搜索模式": "1",
+                "搜索后缀": "",
+                "搜索二次截取": "",
+                "搜索数组": "thumbnail\"&&</li>",
+                "搜索标题": "",
+                "搜索图片": "data-original=\"&&\"",
+                "搜索副标题": "alt=\"&&\"",
+                "搜索链接": "href=\"&&\""
+            }
+        },
+        {
+            "key": "颜色都市",
+            "name": "颜色都市🇺🇸xbpq",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "作者": "",
+                "站名": "",
+                "请求头": "手机",
+                "编码": "UTF-8",
+                "图片代理": "0",
+                "主页url": "https://hsds1.mom/",
+                "首页": "120",
+                "起始页": "1",
+                "分类url": "https://hsds1.mom/index.php/vod/type/id/{cateId}/page/{catePg}.html;;mrcd0",
+                "分类二次截取": "",
+                "分类数组": "",
+                "分类标题": "",
+                "分类ID": "",
+                "分类": "国产❤️AV$1#日本と无码$9#欧美$2#麻豆传媒$3#明星❤️AI$4#三级伦理$6#5D动漫$7",
+                "二次截取": "",
+                "数组": "/vod/play/id&&</a>",
+                "标题": "title=\"&&\"",
+                "图片": "data-src=\"&&\"",
+                "副标题": "time\">&&<",
+                "链接": "/index.php/vod/play/id/+/&&\"",
+                "线路二次截取": "",
+                "直接播放": "0",
+                "播放请求头": "",
+                "嗅探词": ".mp4#.m3u8",
+                "过滤词": "",
+                "跳转播放链接": "var player_*url\":\"&&\"",
+                "跳转解析": "",
+                "搜索请求头": "手机",
+                "搜索url": "https://hsds1.mom/index.php/vod/search/page/{pg}/wd/{wd}.html",
+                "搜索模式": "1",
+                "搜索后缀": "",
+                "搜索二次截取": "",
+                "搜索数组": "item\">&&</div></a>",
+                "搜索标题": "",
+                "搜索图片": "data-src=\"&&\"",
+                "搜索副标题": "alt=\"&&\"",
+                "搜索链接": "href=\"&&\"",
+                "筛选": "1",
+                "类型": "",
+                "剧情": "",
+                "剧情值": "*",
+                "地区": "",
+                "地区值": "*",
+                "年份": "",
+                "年份值": "*",
+                "语言": "",
+                "语言值": "*",
+                "字母": "A&B&C&D&E&F&G&H&I&J&K&L&M&N&O&P&Q&R&S&T&U&V&W&X&Y&Z&0-9",
+                "字母值": "*",
+                "排序": "时间&人气&评分",
+                "排序值": "time&hits&score"
+            }
+        },
+        {
+            "key": "农夫与少妇",
+            "name": "农夫与少妇🇺🇸xbpq",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "二次截取": "<ul class=\"img-list-data&&</ul",
+                "主页url": "https://nfsf8kj.nfsf-a2.buzz/go/",
+                "数组": "<li>&&</li>",
+                "图片": "data-original=\"&&\"",
+                "标题": "title=\"&&\"",
+                "副标题": "text-bg-r\">&&</p",
+                "简介": "keywords\"*content=\"&&剧情",
+                "链接": "href=\"&&\"",
+                "跳转播放链接": "urlDecode(var player_*url\":\"&&\")",
+                "搜索模式": "1",
+                "搜索url": "https://nfsf8kj.nfsf-a2.buzz/go/index.php/vod/search/page/{pg}/wd/{wd}.html",
+                "分类二次截取": "<div class=\"row <{menuInfo.key}>-row\">&&激情图区",
+                "分类数组": "<a&&/a",
+                "分类标题": ">&&<",
+                "分类ID": "/go/index.php/vod/type/id/&&.html",
+                "分类url": "https://nfsf8kj.nfsf-a2.buzz/go/index.php/vod/type/id/{cateId}/page/{catePg}.html;;z"
+            }
+        },
+        {
+            "key": "JAVDAY",
+            "name": "JAVDAY🇺🇸xbpq",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": {
+                "数组": "lazy loaded&&</a>",
+                "图片": "https://javday.tv+image: url(&&)",
+                "链接": "href=\"&&\"",
+                "标题": "class=\"title\"&&</span>",
+                "副标题": "播放+number\">&&</span>+次",
+                "主演": "list-item\"&&</a>",
+                "分类url": "https://javday.tv/category/{cateId}/page/{catePg}/;;z",
+                "分类": "無碼流出$uncensored-leaked#新作上市$new-release#有碼$censored#國產AV$chinese-av#糖心VLOG$txvlog#蘿莉社$luolisheus#HongKongDoll$hongkongdoll"
+            }
+        },
+        {
+            "key": "色花堂",
+            "name": "色花堂🇺🇸xbpq",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": {
+                "数组": "<div class=\"img-box cover-md\">&&</h6>",
+                "图片": "data-original=\"&&\"",
+                "标题": "<h6 class=\"title\">&&</a>",
+                "链接": "href=\"&&\"",
+                "副标题": "<div class=\"ribbon-top-left\">&&</span>",
+                "线路数组": "<div class=\"item line\">&&</div>[排序:线路一>线路二>线路三]",
+                "线路标题": ">&&</a>",
+                "播放数组": "<div class=\"item line\">&&</div>",
+                "影片类型": "<p class=\"sub-title\"&&</p>",
+                "简介": "<div class=\"header-left\">&&</div>",
+                "播放列表": "<a&&/a>",
+                "播放标题": ">&&<",
+                "播放链接": "href=\"&&\"",
+                "分类": "国产精品$1#日韩亚洲$2#自拍偷拍$15#欧美激情$3#主播视频$16#中文字幕$4#日韩无码$11#动漫成人$14#推荐视频$5#同性人妖$6#欧美大片$7#原创国产$8#制服淫穴$9#换脸AI区$10#三级综艺$12#次元动漫$13",
+                "分类url": "https://11gaokk.com/typegaokk/{cateId}_{catePg}.html[https://11gaokk.com/typegaokk/{cateId}.html",
+                "搜索url": "https://11gaokk.com/vodsearch/{wd}----------{pg}---.html"
+            }
+        },
+        {
+            "key": "爱豆传媒",
+            "name": "爱豆传媒🇺🇸xbpq",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "请求头": "User-Agent$MOBILE_UA",
+                "编码": "UTF-8",
+                "发布页": "www.7000.me",
+                "主页url": "https://www.vm9.cc",
+                "数组": "lazyload&&</li>",
+                "标题": "title=\"&&\"",
+                "图片": "data-original=\"&&\"",
+                "链接": "href=\"&&\"",
+                "简介": "description\" content=\"&&\"",
+                "分类url": "https://www.vm9.cc/index.php/vod/type/id/{cateId}/page/{catePg}.html;;z",
+                "分类二次截取": "tab_head\">&&</ul>",
+                "分类数组": "<a&&/a>",
+                "分类标题": ">&&<",
+                "分类ID": "/index.php/vod/show/id/&&.html"
+            }
+        },
+        {
+            "key": "教师妈妈",
+            "name": "教师妈妈🇺🇸xbpq",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "请求头": "User-Agent$MOBILE_UA",
+                "编码": "UTF-8",
+                "主页url": "https://m.jsmm70.buzz/welcome/?https://w8psobw8jp8zq2b.52crs264.xyz/",
+                "数组": "thumb\">&&</time>",
+                "图片": "src=\"&&\"",
+                "标题": "title=\"&&\"",
+                "副标题": "red\">&&</font>",
+                "链接": "默认--href=\"&&\"||首页--https://m.jsmm70.buzz/+href=\"&&\"",
+                "简介": "description\" content=\"&&\"",
+                "跳转播放链接": "var player_*\"url\":\"&&\"",
+                "搜索url": "https://m.jsmm70.buzz/welcome/index.php/vod/search/page/{pg}/wd/{wd}.html",
+                "分类url": "https://m.jsmm70.buzz/welcome/index.php/vod/type/id/{cateId}/page/{catePg}.html;;z",
+                "分类数组": "<li&&li>",
+                "分类标题": ">&&</a >[不包含:黄色仓库]",
+                "分类ID": "/welcome/index.php/vod/type/id/&&.html"
+            }
+        },
+        {
+            "key": "91精品",
+            "name": "91精品🇺🇸xbpq",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "请求头": "User-Agent$MOBILE_UA",
+                "主页url": "https://fyu.lmt4.monster/cn/home/web/",
+                "数组": "<article>&&</article>",
+                "标题": "alt=\"&&\"",
+                "图片": "<img src=\"&&\"",
+                "链接": "href=\"&&\"",
+                "简介": "description\" content=\"&&\"",
+                "分类url": "https://fyu.lmt4.monster/cn/home/web/index.php/vod/type/id/{cateId}/page/{catePg}.html;;z",
+                "分类数组": "<a&&/a>",
+                "分类标题": ">&&<",
+                "分类ID": "/cn/home/web/index.php/vod/type/id/&&.html"
+            }
+        },
+        {
+            "key": "飞机视频",
+            "name": "飞机视频🇺🇸xbpq",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "请求头": "User-Agent$MOBILE_UA",
+                "主页url": "https://zvz.gdpjb8.work/cn/home/web/",
+                "数组": "well well-sm&&/a>",
+                "标题": "m-t-5\">&&<",
+                "图片": "<img src=\"&&\"",
+                "链接": "href=\"&&\"",
+                "简介": "description\" content=\"&&\"",
+                "分类url": "https://zvz.gdpjb8.work/cn/home/web/index.php/vod/type/id/{cateId}/page/{catePg}.html;;z",
+                "分类数组": "<a&&/a>",
+                "分类标题": "title=\"&&\"",
+                "分类ID": "/cn/home/web/index.php/vod/type/id/&&.html"
+            }
+        },
+        {
+            "key": "望春视频",
+            "name": "望春视频🇺🇸xbpq",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "请求头": "User-Agent$MOBILE_UA",
+                "主页url": "https://kcd.bxc7.one/cn/home/web/",
+                "数组": "lazyload\"&&/a>",
+                "标题": "title=\"&&\"",
+                "图片": "data-original=\"&&\"",
+                "链接": "href=\"&&\"",
+                "简介": "description\" content=\"&&\"",
+                "分类url": "https://kcd.bxc7.one/vodtype/{cateId}-{catePg}.html;;z",
+                "分类数组": "<a&&/a>",
+                "分类标题": ">&&<",
+                "分类ID": "/vodtype/&&.html"
+            }
+        },
+        {
+            "key": "风流视频",
+            "name": "风流视频🇺🇸xbpq",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "请求头": "User-Agent$MOBILE_UA",
+                "主页url": "https://djtzph.flsp8.cyou/cn/home/web/",
+                "数组": "container&&</li>",
+                "标题": "title=\"&&\"",
+                "图片": "src=\"&&\"",
+                "副标题": "icoplay\">&&</",
+                "链接": "href=\"&&\"",
+                "简介": "description\" content=\"&&\"",
+                "分类url": "https://djtzph.flsp8.cyou/vodtype/{cateId}-{catePg}.html;;z",
+                "分类数组": "<a&&/a>",
+                "分类标题": ">&&<",
+                "分类ID": "/vodtype/&&.html"
+            }
+        },
+        {
+            "key": "猛男日妓",
+            "name": "猛男日妓🇺🇸xbpq",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "请求头": "User-Agent@Mozilla/5.0 (Linux；； Android 12；； PEHM00 Build/SKQ1.210216.001；； wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/127.0.6533.103 Mobile Safari/537.36&&Cookie@c6s_RobotVerify=1；； gg_iscookie=1；； _ga=GA1.1.1482105610.1729155635；； c6s_uv=21e3094d1ded55b9be44364d1d0ac6ec；； gg_show_number3644=3",
+                "编码": "UTF-8",
+                "主页url": "https://xn--ieu270c.mnrj0z53.xyz",
+                "数组": "默认--<div class=\"gal\">&&</a||搜索--<div class=\"gal\">&&</a",
+                "图片": "original=\"&&\"",
+                "标题": "title=\"&&\"",
+                "副标题": "</i>&&<",
+                "简介": "description\" content=\"&&\"",
+                "链接": "href=\"&&\"",
+                "跳转播放链接": "\"url\": \"&&\"",
+                "搜索模式": "1",
+                "搜索url": "/index.php?m=vod-search-wd-{wd}-pg-{pg}.htm",
+                "分类url": "/index.php?m=vod-type-id-{cateId}-pg-{catePg}.htm;;z",
+                "分类": "国产视频$495#国产传媒$496#中文字幕$497#日本有码$498#日本无码$499#强奸乱伦$500#制服诱惑$501#激情欧美$502#成人动漫$503#抖阴视频$504#人妖伪娘$505#萝莉少女$1116#SM调教$1117#三级片$1118"
+            }
+        },
+        {
+            "key": "不雅视频",
+            "name": "不雅视频🇺🇸xbpq",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "主页url": "https://byym13.buzz/",
+                "数组": "fed-list-item&&</li>",
+                "图片": "('&&')",
+                "标题": "title=\"&&\"",
+                "链接": "href=\"&&\"[替换:display>>detail]",
+                "分类url": "https://byym13.buzz/sort/{cateId}/{catePg};;z",
+                "分类": "无码专区&制服诱惑&三级伦理&AI换脸&中文字幕&卡通动漫&欧美系列&美女主播&国产自拍&熟女人妻&萝莉少女&女同性爱&多人群交&美乳巨乳&强奸乱伦&抖阴视频&韩国主播&网红头条&网爆黑料&欧美无码&女优明星&SM调教&AV解说&日本AV&国产视频&动漫天堂&黑料吃瓜&伦理剧情&稀缺资源&中文字幕&角色剧情&无码推荐&丝袜美腿&传媒影视&国产精品&美女主播&素人拍摄&偷拍自拍&里番作品&3D动漫&同人作品&热门事件&吃瓜事件&采集帮助&SPA养生&日韩精品&制服淫穴&台湾swag&日本无码&日本有码&中字无码&主播视讯&欧美性爱&日本乱伦&AV解说&国产AV&乱伦国产&强奸乱伦&AI换脸&制服诱惑&滴滴探花&成人动漫&SPA养生&日本乱伦&萝莉少女",
+                "分类值": "21&25&27&29&30&32&35&36&38&40&42&44&46&48&49&50&51&52&53&54&55&56&57&257&258&259&260&261&262&263&264&265&266&267&268&269&270&271&272&273&274&275&276&277&278&279&280&281&282&283&284&285&286&287&288&289&290&291&292&293&294&295&296&297&298"
+            }
+        },
+        {
+            "key": "粉B幺女",
+            "name": "粉B幺女🇺🇸xbpq",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "请求头": "User-Agent$MOBILE_UA",
+                "编码": "UTF-8",
+                "图片": "(&&)",
+                "链接": "href=\"&&\"[替换:display>>detail]",
+                "分类url": "https://fenbynvwo3.buzz/type/id/{cateId}/{catePg}.html;;z",
+                "分类": "传媒出品&国产主播&麻豆传媒&国产情色&日本无码&日本有码 &中文字幕 &欧美极品 &动漫精品 &强奸乱伦 &变态另类& 巨乳美乳& 制服诱惑 &熟女人妻 &三级伦理 &自拍偷拍 &AI换脸& 海外明星 &福利视频 &少女萝莉 &国产传媒 &网红黑料 &女同性恋 &人妖系列 &AV解说 &学生系列 &极品少妇&无码专区&制服诱惑&三级伦理 &AI换脸 &中文字幕 &卡通动漫 &欧美系列 &美女主播 &国产自拍 &熟女人妻 &萝莉少女 &美乳巨乳 &强奸乱伦 &抖阴视频 &韩国主播 &网红头条 &网爆黑料 &欧美无码 &女优明星 &SM调教&精品推荐&国产色情&主播直播&亚洲无码&亚洲有码&中文字幕&巨乳美乳 &人妻熟女 &强奸乱伦 &欧美精品 &萝莉少女 &伦理三级 &成人动漫 &自拍偷拍 &制服丝袜 &口交颜射&日本精品&Cosplay&素人自拍&台湾辣妹&韩国御姐 &唯美港姐 &东南亚AV &欺辱凌辱 &剧情介绍 &多人多P& 91探花 &网红流出 &野外露出 &古装扮演& 女优系列 &可爱学生 &风情旗袍 &兽耳系列 &瑜伽裤 &闷骚护士& 过膝袜 &网曝门 &女同性恋 &男同性恋 &恋腿狂魔",
+                "分类值": "287&185&296&177&178&179&180&181&182&183&184&186&187&188&189&190&191&192&193&194&325&327&328&329&330&331&332&295&297&298&299&300&301&302&303&304&305&306&309&310&311&312&313&314&315&316&317&224&225&227&229&231&233&235&237&239&241&243&245&247&249&251&253&255&257&259&261&263&265&267&269&271&273&275&276&277&278&279&280&281&282&283&284&285&286&288&289&290"
+            }
+        },
+        {
+            "key": "狗连女视频",
+            "name": "go男女🇺🇸xbpq",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "filterable": 0,
+            "style": {
+                "type": "rect",
+                "ratio": 1.33
+            },
+            "ext": {
+                "分类url": "https://fenbynvwo3.buzz/type/id/{cateId}/{catePg}.html",
+                "线路数组": "<div class=\"stui-player__detail detail\"&&</div>",
+                "播放数组": "<button class=\"button\"&&</div>",
+                "分类": "传媒出品&国产主播&麻豆传媒&国产情色&日本无码&日本有码 &中文字幕 &欧美极品 &动漫精品 &强奸乱伦 &变态另类& 巨乳美乳& 制服诱惑 &熟女人妻 &三级伦理 &自拍偷拍 &AI换脸& 海外明星 &福利视频 &少女萝莉 &国产传媒 &网红黑料 &女同性恋 &人妖系列 &AV解说 &学生系列 &极品少妇&无码专区&制服诱惑&三级伦理 &AI换脸 &中文字幕 &卡通动漫 &欧美系列 &美女主播 &国产自拍 &熟女人妻 &萝莉少女 &美乳巨乳 &强奸乱伦 &抖阴视频 &韩国主播 &网红头条 &网爆黑料 &欧美无码 &女优明星 &SM调教&精品推荐&国产色情&主播直播&亚洲无码&亚洲有码&中文字幕&巨乳美乳 &人妻熟女 &强奸乱伦 &欧美精品 &萝莉少女 &伦理三级 &成人动漫 &自拍偷拍 &制服丝袜 &口交颜射&日本精品&Cosplay&素人自拍&台湾辣妹&韩国御姐 &唯美港姐 &东南亚AV &欺辱凌辱 &剧情介绍 &多人多P& 91探花 &网红流出 &野外露出 &古装扮演& 女优系列 &可爱学生 &风情旗袍 &兽耳系列 &瑜伽裤 &闷骚护士& 过膝袜 &网曝门 &女同性恋 &男同性恋 &恋腿狂魔",
+                "分类值": "287&185&296&177&178&179&180&181&182&183&184&186&187&188&189&190&191&192&193&194&325&327&328&329&330&331&332&295&297&298&299&300&301&302&303&304&305&306&309&310&311&312&313&314&315&316&317&224&225&227&229&231&233&235&237&239&241&243&245&247&249&251&253&255&257&259&261&263&265&267&269&271&273&275&276&277&278&279&280&281&282&283&284&285&286&288&289&290"
+            },
+            "嗅探词": ".m3u8#.mp4#.flv#.m4a#.avi#.mkv#.mov#.3gp#.asf#.rm#.rmvb#.wmv#.mpg#.mpeg#.mpe#.ts#.vob#.mp3#.wma"
+        },
+        {
+            "key": "13AV",
+            "name": "13AV🇺🇸xbpq",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "作者": "八爷",
+                "编码": "UTF-8",
+                "主页url": "https://13av.icu/",
+                "数组": "mb-e&&</p>",
+                "直接播放": "1",
+                "图片": "data-src=\"&&\"",
+                "标题": "title\">*>&&</a>",
+                "副标题": "",
+                "链接": "href=\"&&\"",
+                "简介": "description\" content=\"&&\"",
+                "搜索模式": "1",
+                "搜索url": "https://13av.icu/tags/page/{pg}/wd/{wd}.html",
+                "分类url": "https://13av.icu/type/{cateId}/{catePg}.html",
+                "分类": "角色剧情$5#直接开啪$6#主奴调教$7#凌辱快感$8#无码影片$24#中文字幕$9#制服诱惑$10#丝袜美腿$21#男友视角$20#多P群交$22#盗摄偷拍$23#女同欢愉$25"
+            }
+        },
+        {
+            "key": "MissAV",
+            "name": "MissAV🇺🇸xbpq",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "playerType": "2",
+            "quickSearch": 1,
+            "style": {
+                "type": "rect",
+                "ratio": 1.485
+            },
+            "searchable": 1,
+            "ext": {
+                "请求头": "User-Agent$MOBILE_UA",
+                "编码": "UTF-8",
+                "主页url": "https://missav.ws/dm10/cn",
+                "数组": "\"lozad&&</div>[不包含:item.dvd_id]",
+                "图片": "src=\"&&\"",
+                "标题": "alt=\"&&\"",
+                "副标题": "<span class=\"absolute*>&&</span",
+                "简介": "keywords\" content=\"&&\"",
+                "链接": "href=\"&&\"",
+                "搜索url": "https://missav.com/cn/search/{wd}?page={pg}",
+                "分类url": "https://missav.ws/{cateId}?page={catePg};;z",
+                "分类": "中文字幕$dm265/cn/chinese-subtitle#最近更新$dm509/cn/new#新作上市$dm504/cn/release#无码流出$dm558/cn/uncensored-leak#VR$cn/genres/VR#今日热门$dm242/cn/today-hot#本週热门$dm167/cn/weekly-hot#本月热门$dm206/cn/monthly-hot#SIRO$dm23/cn/siro#LUXU$dm20/cn/luxu#GANA$dm17/cn/gana#PRESTIGE PREMIUM$dm14/cn/maan#S-CUTE$dm23/cn/scute#ARA$dm19/cn/ara#无码流出$dm558/cn/uncensored-leak#FC2$dm94/cn/fc2#HEYZO$dm621/cn/heyzo#东京热$dm29/cn/tokyohot#一本道$dm39925/cn/1pondo#Caribbeancom$dm75695/cn/caribbeancom#Caribbeancompr$dm1200/cn/caribbeancompr#10musume$dm39286/cn/10musume#pacopacomama$dm663/cn/pacopacomama#Gachinco$dm135/cn/gachinco#XXX-AV$dm25/cn/xxxav#人妻斩$dm24/cn/marriedslash#顽皮 4610$dm19/cn/naughty4610#顽皮 0930$dm22/cn/naughty0930#麻豆传媒$dm31/cn/madou#TWAV$dm17/cn/twav#Furuke$dm14/cn/furuke"
+            }
+        },
+        {
+            "key": "free18",
+            "name": "free18🇺🇸xbpq",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": {
+                "请求头": "User-Agent$MOBILE_UA",
+                "编码": "UTF-8",
+                "数组": "list-bj&&</a",
+                "标题": "默认--alt=\"&&\"||首页--title=\"&&\"",
+                "图片": "src=\"&&\"",
+                "副标题": "ft2\">&&</",
+                "链接": "href=\"&&\"",
+                "线路数组": "fa ds-dianying&&/a>",
+                "线路标题": "+</i>&&</",
+                "播放数组": "anthology-list-play size&&</ul>",
+                "播放列表": "<a&&a>",
+                "播放链接": "href=\"&&\"",
+                "播放标题": "+>&&</",
+                "分类": "日本$1/0/0/0/0/0#超清精品$1/20/0/0/0/0#超清无码$1/64/0/0/0/0#超清字幕$1/21/0/0/0/0#精品AV$1/9/0/0/0/0#AV明星$1/12/0/0/0/0#中文字幕$1/11/0/0/0/0#无码专区$1/10/0/0/0/0#萝莉少女$1/15/0/0/0/0#巨乳美乳$1/18/0/0/0/0#长腿丝袜$1/17/0/0/0/0#邻家人妻$1/16/0/0/0/0#乱伦$1/13/0/0/0/0#制服诱惑$1/14/0/0/0/0#口交颜射$1/19/0/0/0/0#动漫$2/0/0/0/0/0#精选里番$2/22/0/0/0/0#超清里番$2/66/0/0/0/0#动画源1$2/23/0/0/0/0#动画资源2$2/24/0/0/0/0#3D动画$2/25/0/0/0/0#国产$3/0/0/0/0/0#超清国产$3/63/0/0/0/0#超清自拍$3/62/0/0/0/0#麻豆传媒$3/30/0/0/0/0#91制片厂$3/31/0/0/0/0#蜜桃影像$3/32/0/0/0/0#天美传媒$3/33/0/0/0/0#精东影业$3/34/0/0/0/0#星空无限$3/41/0/0/0/0#台湾swag$3/42/0/0/0/0#葫芦影业$3/43/0/0/0/0#糖心Vlog$3/44/0/0/0/0#其他传媒$3/45/0/0/0/0#国模私拍$3/61/0/0/0/0#情色$4/0/0/0/0/0#超清三级$4/67/0/0/0/0#日本片$4/36/0/0/0/0#韩国片$4/37/0/0/0/0#欧美片$4/35/0/0/0/0#港台片$4/38/0/0/0/0#欧美$39/0/0/0/0/0/0#特别$40/0/0/0/0/0/0#超清美女$40/49/0/0/0/0#网曝黑料$40/56/0/0/0/0#SM调教$40/54/0/0/0/0#国产主播$40/55/0/0/0/0#网红头条$40/58/0/0/0/0#AI换脸$40/57/0/0/0/0#解说$46/0/0/0/0/0/0#直播$48/0/0/0/0/0/0",
+                "分类url": "https://avhentai.icu/list/{catePg}/{cateId}/0/0/0/0/0"
+            }
+        },
+        {
+            "key": "py_BadNews·沐辰",
+            "name": "BadNews·沐辰",
+            "type": 4,
+            "api": "https://py.doube.eu.org/spider?site=BadNews",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 0,
+            "changeable": 0,
+            "style": {
+                "type": "rect",
+                "ratio": 1.5
+            }
+        },
+        {
+            "key": "py_Miss·沐辰",
+            "name": "MissAV·沐辰",
+            "type": 4,
+            "api": "https://py.doube.eu.org/spider?site=Miss",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 0,
+            "changeable": 0
+        },
+        {
+            "key": "py_AiDou·沐辰",
+            "name": "AiDou·沐辰",
+            "type": 4,
+            "api": "https://py.doube.eu.org/spider?site=AiDou",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 0,
+            "changeable": 0,
+            "style": {
+                "type": "rect",
+                "ratio": 1.5
+            }
+        },
+        {
+            "key": "py_MrJav·沐辰",
+            "name": "MRJav·沐辰",
+            "type": 4,
+            "api": "https://py.doube.eu.org/spider?site=MrJav",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 0,
+            "changeable": 0,
+            "style": {
+                "type": "rect",
+                "ratio": 1.5
+            }
+        },
+        {
+            "key": "php_madou·沐辰",
+            "name": "麻豆·沐辰",
+            "type": 4,
+            "api": "https://py.doube.eu.org/spider?site=MaDou",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 0,
+            "changeable": 0,
+            "style": {
+                "type": "rect",
+                "ratio": 1.5
+            }
+        }
+    ]
+}
